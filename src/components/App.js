@@ -28,15 +28,13 @@ const Header = () => ({
         </ul>
         <ul id="dropdown2" className="dropdown-content">
           <li><Link className="orange-text" to="/">Home</Link></li>
-          <li><Link className="orange-text" to="/about">About Us</Link></li>
+          <li><Link className="orange-text" to="/about">Who We Are</Link></li>
         </ul>
         <nav className="white" role="navigation">
           <div className="nav-wrapper container">
             <Link className="dropdown-button" data-activates="dropdown2" to="/" width="96px" id="logo-container" href="#"><img alt="" className="site-logo" height="50px" src="/images/logo.png" /></Link>
             <ul className="right hide-on-med-and-down">
-              <li><Link className="black-text" to="/services">Services</Link></li>
-              <li><Link className="black-text" to="/insurance">Insurances</Link></li>
-              <li><Link className="black-text" to="/experience">Patient Experience</Link></li>
+              <li><a href="#!" data-activates="dropdown1" className="black-text dropdown-button">Patient Information</a></li>
               <li><Link className="black-text" to="/physicians/">Physicians</Link></li>
               <li><Link className="black-text" to="/appointments/">Contact Us</Link></li>
               <li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
@@ -46,7 +44,9 @@ const Header = () => ({
             </ul>
 
             <ul id="nav-mobile" className="side-nav">
-              <li><Link className="black-text" to="/patients/" href="#">Patient Information</Link></li>
+              <li><Link className="black-text" to="/services">Services</Link></li>
+              <li><Link className="black-text" to="/insurance">Insurances</Link></li>
+              <li><Link className="black-text" to="/experience">Patient Experience</Link></li>
               <li><Link className="black-text" to="/physicians/">Physicians</Link></li>
               <li><Link className="black-text" to="/appointments/">Contact Us</Link></li>
               <li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
