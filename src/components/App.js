@@ -13,6 +13,7 @@ import Physicians from './physicians';
 import Appointments from './appointments';
 import Insurances from './insurances';
 import Experience from './expereince';
+import About from './about';
 
 
 const Header = () => ({
@@ -25,9 +26,13 @@ const Header = () => ({
           <li><Link className="orange-text" to="/insurance">Insurances</Link></li>
           <li><Link className="orange-text" to="/experience">Patient Experience</Link></li>
         </ul>
+        <ul id="dropdown2" className="dropdown-content">
+          <li><Link className="orange-text" to="/">Home</Link></li>
+          <li><Link className="orange-text" to="/about">About Us</Link></li>
+        </ul>
         <nav className="white" role="navigation">
           <div className="nav-wrapper container">
-            <Link to="/" width="96px" id="logo-container" href="#"><img className="site-logo" height="50px" src="/images/logo.png" /></Link>
+            <Link className="dropdown-button" data-activates="dropdown2" to="/" width="96px" id="logo-container" href="#"><img alt="" className="site-logo" height="50px" src="/images/logo.png" /></Link>
             <ul className="right hide-on-med-and-down">
               <li><a href="#!" data-activates="dropdown1" className="black-text dropdown-button">Patient Information</a></li>
               <li><Link className="black-text" to="/physicians/">Physicians</Link></li>
@@ -85,6 +90,7 @@ class App extends Component {
               <Route path="/appointments" component={Appointments} />
               <Route path="/insurance" component={Insurances} />
               <Route path="/experience" component={Experience} />
+              <Route path="/about" component={About} />
             </Switch>
           </div>
           <footer className="page-footer orange darken-1">

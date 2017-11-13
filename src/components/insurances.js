@@ -36,7 +36,7 @@ const Insurances = () => ({
                     <div className="col s12 m3">• United Healthcare</div>
                     <div className="col s12 m3">• Highmark Blueshield</div>
 
-                    <div className="col s12 m3">• Bravo</div>
+                    <div className="col s12 m3">• Cigna Health</div>
                   </div>
                 </h6>
               </div>
