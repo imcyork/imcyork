@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d11b6a7-5fb3-41b9-b200-dfe4824b7072" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/about.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cname" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="$PROJECT_DIR$/build/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.js" afterPath="$PROJECT_DIR$/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/insurances.js" afterPath="$PROJECT_DIR$/src/components/insurances.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -76,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insurances.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="insurances.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/insurances.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+            <state relative-caret-position="480">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -162,10 +155,10 @@
         <option value="$PROJECT_DIR$/src/components/insurances.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/src/components/insurances.js" />
         <option value="$PROJECT_DIR$/src/components/about.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/components/insurances.js" />
       </list>
     </option>
   </component>
@@ -293,12 +286,12 @@
       <workItem from="1509474099812" duration="6000" />
       <workItem from="1509474123731" duration="722000" />
       <workItem from="1509565728628" duration="458000" />
-      <workItem from="1510532999133" duration="4962000" />
+      <workItem from="1510532999133" duration="5108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17984000" />
+    <option name="totallyTimeSpent" value="18130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -697,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/insurances.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="51" lean-forward="false" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/expereince.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -756,6 +739,16 @@
         <state relative-caret-position="75">
           <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/insurances.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

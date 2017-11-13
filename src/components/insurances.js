@@ -26,7 +26,7 @@ const Insurances = () => ({
                     <div className="col s12 m3">• Coventry</div>
                   </div>
                   <div className="row">
-                    <div className="col s12 m3">• Gesinger</div>
+                    <div className="col s12 m3">• Geisinger</div>
                     <div className="col s12 m3">• Health America</div>
                     <div className="col s12 m3">• Humana</div>
                     <div className="col s12 m3">• Medicare</div>
@@ -35,8 +35,7 @@ const Insurances = () => ({
                     <div className="col s12 m3">• South Central Preferred</div>
                     <div className="col s12 m3">• United Healthcare</div>
                     <div className="col s12 m3">• Highmark Blueshield</div>
-
-                    <div className="col s12 m3">• Cigna Health</div>
+                    <div className="col s12 m3">• Cigna Health Spring</div>
                   </div>
                 </h6>
               </div>
