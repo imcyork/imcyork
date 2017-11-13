@@ -1,86 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d11b6a7-5fb3-41b9-b200-dfe4824b7072" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Bradley.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Carol.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Pete-G.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Pete.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Pete2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Pete3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Tom-G.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Tom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Tom2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/before_after_sculpt_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/before_after_sculpt_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/before_after_sculpt_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contact.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/customizable.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/emergencies.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/faqs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/form.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/how_it_works.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/imc9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/insurance.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mdvip.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/patient.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sculpt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sculpt2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sculpt_machine.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social_sculpt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/appointments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/emergencies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/expereince.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/faqs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/insurances.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/mdvip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/page-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/patients.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/physicians.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sculpsure.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/award.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/burial_container.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/casket.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cremation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/george_curilla.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/john_keffer.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/john_keffer_2.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/joseph_keffer.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/kevin_sandmeyer.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/prayer_card.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/robert_ramsey.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sean_pelkey.webp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/secure_choice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/urn.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background2.jpg" afterPath="$PROJECT_DIR$/images/background2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="$PROJECT_DIR$/build/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.js" afterPath="$PROJECT_DIR$/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
-    </list>
+    <list default="true" id="8d11b6a7-5fb3-41b9-b200-dfe4824b7072" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -98,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1005">
-              <caret line="67" column="3" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+              <caret line="67" column="3" lean-forward="false" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -130,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/insurances.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -142,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding>
                 <element signature="e#53#94#0" expanded="true" />
               </folding>
@@ -154,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -164,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3195">
-              <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+              <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -327,12 +248,12 @@
       <workItem from="1509474099812" duration="6000" />
       <workItem from="1509474123731" duration="722000" />
       <workItem from="1509565728628" duration="458000" />
-      <workItem from="1510532999133" duration="2662000" />
+      <workItem from="1510532999133" duration="2845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15684000" />
+    <option name="totallyTimeSpent" value="15867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -739,7 +660,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/insurances.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -749,7 +670,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
             <element signature="e#53#94#0" expanded="true" />
           </folding>
@@ -767,7 +688,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -775,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3195">
-          <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -791,7 +712,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
-          <caret line="67" column="3" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+          <caret line="67" column="3" lean-forward="false" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
