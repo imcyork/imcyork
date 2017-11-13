@@ -34,7 +34,9 @@ const Header = () => ({
           <div className="nav-wrapper container">
             <Link className="dropdown-button" data-activates="dropdown2" to="/" width="96px" id="logo-container" href="#"><img alt="" className="site-logo" height="50px" src="/images/logo.png" /></Link>
             <ul className="right hide-on-med-and-down">
-              <li><a href="#!" data-activates="dropdown1" className="black-text dropdown-button">Patient Information</a></li>
+              <li><Link className="black-text" to="/services">Services</Link></li>
+              <li><Link className="black-text" to="/insurance">Insurances</Link></li>
+              <li><Link className="black-text" to="/experience">Patient Experience</Link></li>
               <li><Link className="black-text" to="/physicians/">Physicians</Link></li>
               <li><Link className="black-text" to="/appointments/">Contact Us</Link></li>
               <li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
