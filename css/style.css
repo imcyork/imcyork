@@ -175,6 +175,10 @@ p {
   display: block;
 }
 
+.sizable{
+  max-width: 80vw;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -192,10 +196,6 @@ p {
   .mdvip_link_bar_item{
     display: block;
     margin: 0 auto;
-  }
-
-  .m4 img{
-    width: 80vw;
   }
 }
 

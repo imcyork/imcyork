@@ -212,17 +212,17 @@ class Home extends Component {
             <div className="row">
               <div className="col s12 m4">
                 <div className="icon-block">
-                  <img alt=" " src="/images/cremation.png" />
+                  <img className="sizable" alt=" " src="/images/cremation.png" />
                 </div>
               </div>
               <div className="col s12 m4">
                 <div className="icon-block">
-                  <img alt=" " src="/images/award.png" />
+                  <img className="sizable" alt=" " src="/images/award.png" />
                 </div>
               </div>
               <div className="col s12 m4">
                 <div className="icon-block">
-                  <img alt=" " src="/images/secure_choice.png" />
+                  <img className="sizable" alt=" " src="/images/secure_choice.png" />
                 </div>
               </div>
             </div>

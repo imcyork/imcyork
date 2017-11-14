@@ -7,7 +7,7 @@ const Appointments = () =>
       <div className="card-content">
         <div className="row">
           <div className="col offset-m2 m4 center">
-            <img src="/images/contact.jpg" />
+            <img className="sizable" alt="" src="/images/contact.jpg" />
           </div>
           <div className="col m6">
             <h5>

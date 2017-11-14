@@ -8,7 +8,7 @@ const Emergencies = () =>
       <div className="card-content">
         <div className="row">
           <div className="col offset-m2 m4 center">
-            <img src="/images/emergencies.jpg" />
+            <img className="sizable" alt="" src="/images/emergencies.jpg" />
           </div>
           <div className="col m6">
             <h5 className="font1">

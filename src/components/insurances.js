@@ -10,7 +10,7 @@ const Insurances = () => ({
           <div className="card-content">
             <div className="row">
               <div className="col offset-m2 m4 center">
-                <img src="/images/insurance.jpg" />
+                <img className="sizable" alt="" src="/images/insurance.jpg" />
               </div>
               <br />
               <br />

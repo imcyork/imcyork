@@ -9,7 +9,7 @@ const Patients = () => ({
           <div className="card-content">
             <div className="row">
               <div className="col offset-m2 m4 center">
-                <img alt="" src="/images/about.jpg" />
+                <img className="sizable" alt="" src="/images/about.jpg" />
               </div>
               <br />
               <h4>Services</h4>

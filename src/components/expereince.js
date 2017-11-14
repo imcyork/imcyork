@@ -8,7 +8,7 @@ const Experiences = () =>
       <div className="card-content">
         <div className="row">
           <div className="col offset-m2 m4 center">
-            <img alt="" src="/images/patient.jpg" />
+            <img className="sizable" alt="" src="/images/patient.jpg" />
           </div>
           <div className="col m6">
             <h5 className="font1">
