@@ -123,13 +123,7 @@ class App extends Component {
         </div>
       </Router>
     );
-  },
-
-
-    shouldComponentUpdate(nextProps, nextState) {
-        return !_.isEqual(nextState, this.state)
-            || !_.isEqual(nextProps, this.props);
-    }
+  }
 }
 
 export default App;
