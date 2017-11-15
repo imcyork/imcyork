@@ -20,6 +20,7 @@ const Header = () => ({
 
 
   closeNav() {
+    console.log('Closing the sidebar');
     $('.button-collapse').sideNav('hide');
   },
 
