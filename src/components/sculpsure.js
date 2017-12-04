@@ -42,7 +42,7 @@ const Sculpsure = () => ({
             <h5>SculpSure is ideal for people with trouble spots particularly those that seem resistant to diet and exercise.</h5>
           </div>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/1Ch3oZqtLT4" frameBorder="0" gesture="media" allow="encrypted-media" allowFullScreen />
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/1Ch3oZqtLT4" frameBorder="0" gesture="media" allow="encrypted-media" allowFullScreen /></center>
         <div className="row">
           <div className="col offset-m2 m8">
             <h4>What kind of results can I expect?</h4>
@@ -65,7 +65,7 @@ const Sculpsure = () => ({
             <h4>Is it safe?</h4>
             <h5>SculpSure is FDA cleared for the treatment of the abdomen, flanks, back, inner thighs, and outer thighs.</h5>
           </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oiovVqXhOlQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/oiovVqXhOlQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></center>
         </div>
         <div className="row">
           <div className="col offset-m2 m8">
