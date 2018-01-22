@@ -56,6 +56,7 @@ const Header = () => ({
               </ul>
             </div>
             <ul onClick={this.closeNav} id="nav-mobile" className="side-nav">
+              <li><Link className="orange-text" to="/">Home</Link></li>
               <li><Link className="black-text" to="/services">Services</Link></li>
               <li><Link className="black-text" to="/insurance">Insurances</Link></li>
               <li><Link className="black-text" to="/experience">Patient Experience</Link></li>
@@ -139,7 +140,7 @@ class App extends Component {
             </div>
             <div className="footer-copyright">
               <div className="container">
-                      Created by                                <a className="brown-text small_text" href="http://pelkey.io"> Zachary Pelkey</a>
+                      Created by                                          <a className="brown-text small_text" href="http://pelkey.io"> Zachary Pelkey</a>
                       Copyright Internal Medicine Consultants
                     </div>
             </div>
