@@ -38,17 +38,23 @@ const Header = () => ({
         </ul>
         <nav className="white" role="navigation">
           <div className="nav-wrapper container">
-            <Link className="dropdown-button" data-activates="dropdown2" to="/" width="96px" id="logo-container" href="#"><img alt="" className="site-logo" height="50px" src="/images/logo.png" /></Link>
-            <ul className="right hide-on-med-and-down">
-              <li><a href="#!" data-activates="dropdown1" className="black-text dropdown-button">Patient Information</a></li>
-              <li><Link className="black-text" to="/physicians/">Physicians</Link></li>
-              <li><Link className="black-text" to="/appointments/">Contact Us</Link></li>
-              <li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
-              <li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
-              <li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>
-              <li><Link className="black-text" to="/faqs/">FAQ's</Link></li>
-            </ul>
-
+            <Link className="dropdown-button" data-activates="dropdown2" to="/" width="96px" id="logo-container" href="#"><img alt="" className="site-logo hide-on-med-and-down" height="50px" src="/images/logo.png" /></Link>
+            <div className="title-contain">
+              <h5 id="title-text">
+              Internal Medicine Consultants
+              </h5>
+              <p id="title-subtext">
+                1777 5th Avenue, York, PA, 17403
+              </p>
+            </div>
+            <div id="side-info" className="hide-on-med-and-down">
+              <ul>
+                <li>Office: (717) 843-8051</li>
+                <li>Toll-Free: 1-800-782-778 </li>
+                <li>MDVIP: (717) 850-4049</li>
+                <li>Fax: (717) 848-2578</li>
+              </ul>
+            </div>
             <ul onClick={this.closeNav} id="nav-mobile" className="side-nav">
               <li><Link className="black-text" to="/services">Services</Link></li>
               <li><Link className="black-text" to="/insurance">Insurances</Link></li>
@@ -63,6 +69,18 @@ const Header = () => ({
             <a href="#" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
           </div>
         </nav>
+
+        <div>
+          <ul id="nav-links" className="hide-on-med-and-down">
+            <li><a href="#!" data-activates="dropdown1" className="black-text dropdown-button">Patient Information</a></li>
+            <li><Link className="black-text" to="/physicians/">Physicians</Link></li>
+            <li><Link className="black-text" to="/appointments/">Contact Us</Link></li>
+            <li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
+            <li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
+            <li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>
+            <li><Link className="black-text" to="/faqs/">FAQ's</Link></li>
+          </ul>
+        </div>
       </div>
     );
   },

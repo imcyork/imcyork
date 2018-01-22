@@ -13,6 +13,58 @@ nav{
   margin-bottom: 3px;
 }
 
+#nav-links{
+  position: absolute;
+  top: 64px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+#nav-links li{
+  margin: 0 20px;
+  display: inline-flex;
+}
+
+
+#title-text{
+  position: absolute;
+  top: 0;
+  color: #b80000;
+}
+
+#title-subtext{
+  color: #b80000;
+  position: absolute;
+  bottom: 5px;
+  margin-bottom: -7px;
+}
+
+#side-info{
+  margin-top: -20px;
+  position: absolute;
+  top: 0;
+  left: 510px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #b80000;
+}
+
+#side-info ul{
+    display: flex !important;
+  flex-direction: column;
+}
+
+#side-info li{
+    height: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#page-content{
+  padding-top: 40px;
+}
 
 .fix{
   max-width: 100vw;
@@ -203,6 +255,16 @@ p {
     display: block;
     margin: 0 auto;
   }
+
+  #title-text{
+    font-size: 20px;
+    left: 45px;
+  }
+
+  #title-subtext{
+    left: 45px;
+  }
+
 }
 
 @media only screen and (max-width : 600px) {
