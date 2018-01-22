@@ -8,8 +8,6 @@ const IndexPage = () => ({
         <br />
         <br />
         <br />
-        <br />
-        <br />
         <div className="top_options">
           <a href="https://www.medentmobile.com/portal/index.php?practice_id=8fTfL3cT" className="orange-text"> MEDENT Patient Portal</a>
           <a href="/images/form.pdf" className="orange-text">New Patient Form</a>
