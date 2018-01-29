@@ -106,6 +106,18 @@ class App extends Component {
           <Header />
 
           <div id="page-content" className="thebackground">
+
+            <center>
+            <div className="mobile-nums hide-on-med-and-up">
+              <ul>
+                <li>Office: (717) 843-8051</li>
+                <li>Toll-Free: 1-800-782-778 </li>
+                <li>MDVIP: (717) 850-4049</li>
+                <li>Fax: (717) 848-2578</li>
+              </ul>
+            </div>
+            </center>
+
             <Switch>
               <Route exact name="index" path="/" component={IndexPage} />
               <Route path="/mdvip" component={Mdvip} />
@@ -140,7 +152,7 @@ class App extends Component {
             </div>
             <div className="footer-copyright">
               <div className="container">
-                      Created by                                          <a className="brown-text small_text" href="http://pelkey.io"> Zachary Pelkey</a>
+                      Created by                                                    <a className="brown-text small_text" href="http://pelkey.io"> Zachary Pelkey</a>
                       Copyright Internal Medicine Consultants
                     </div>
             </div>

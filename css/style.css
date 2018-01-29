@@ -237,6 +237,10 @@ p {
   max-width: 80vw;
 }
 
+.mobile-nums{
+  margin-top: -20px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
