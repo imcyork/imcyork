@@ -14,6 +14,7 @@ import Appointments from './appointments';
 import Insurances from './insurances';
 import Experience from './expereince';
 import About from './about';
+import Events from './events';
 
 
 const Header = () => ({
@@ -66,6 +67,7 @@ const Header = () => ({
               <li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
               <li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>
               <li><Link className="black-text" to="/faqs/">FAQ's</Link></li>
+              <li><Link to="/events" className=" bigger orange-text text-darken-1">Events/Specials</Link></li>
             </ul>
             <a href="#" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
           </div>
@@ -79,6 +81,7 @@ const Header = () => ({
             <li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
             <li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
             <li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>
+            <li><Link to="/events" className=" bigger orange-text text-darken-1">Events/Specials</Link></li>
             <li><Link className="black-text" to="/faqs/">FAQ's</Link></li>
           </ul>
         </div>
@@ -130,6 +133,8 @@ class App extends Component {
               <Route path="/insurance" component={Insurances} />
               <Route path="/experience" component={Experience} />
               <Route path="/about" component={About} />
+              <Route path="/events" component={Events} />
+              <Route path="/specials" component={Events} />
             </Switch>
           </div>
           <footer className="page-footer orange darken-1">
