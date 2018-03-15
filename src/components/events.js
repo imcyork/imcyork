@@ -10,7 +10,7 @@ class Events extends Component {
     };
   }
   componentDidMount() {
-    const dataURL = 'http://blog.imcyork.com/wp-json/wp/v2/events?_embed';
+    const dataURL = 'https://blog.imcyork.com/wp-json/wp/v2/events?_embed';
     fetch(dataURL)
             .then(res => res.json())
             .then((res) => {
