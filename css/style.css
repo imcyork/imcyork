@@ -241,6 +241,17 @@ p {
   margin-top: -20px;
 }
 
+.special-title{
+    margin-top: -25px;
+}
+.special-card{
+    min-height: 300px;
+}
+
+.event-item{
+  font-size: 25px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;

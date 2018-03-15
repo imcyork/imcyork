@@ -1,20 +1,46 @@
-import React from 'react';
+/* eslint-disable react/prefer-stateless-function */
+import React, { Component } from 'react';
 
-const Events = () =>
-  <div>
-    <div className="spacer" />
-    <div className="card">
-      <div className="card-content" />
-      <div className="card-content">
-        <h2 className="center">Events/Specials</h2>
-        <h6 className="center">Nothing currently available.</h6>
-      </div>;
+class Events extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      events: [],
+    };
+  }
+  componentDidMount() {
+    const dataURL = 'http://blog.imcyork.com/wp-json/wp/v2/events?_embed';
+    fetch(dataURL)
+            .then(res => res.json())
+            .then((res) => {
+              this.setState({
+                events: res,
+              });
+            });
+  }
+
+
+  render() {
+    const events = this.state.events.map((event, index) => <div key={index}>
+      <p className="event-item">{event.acf.event_text}</p>
+    </div>);
+
+    return (
+      <div>
+        <div className="spacer" />
+        <div className="card special-card">
+          <div className="card-content">
+            <h2 className="center ">Events/Specials</h2>
+            {events}
+          </div>
         </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-  </div>;
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    );
+  }
+}
 export default Events;
