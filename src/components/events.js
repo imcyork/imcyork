@@ -41,12 +41,8 @@ class Events extends Component {
     return (
       <div>
         <div className="spacer" />
-        <div className="card special-card">
-          <div className="card-content">
-            <h2 className="special-title">Events/Specials</h2>
-            {events}
-          </div>
-        </div>
+        <h2 className="special-title">Events/Specials</h2>
+        {events}
         <br />
         <br />
         <br />
